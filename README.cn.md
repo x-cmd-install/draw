@@ -14,11 +14,11 @@ x install draw
 
 ## 代码洞察
 
-合计: **19,728** 行代码（覆盖前 5 种语言、共 **72** 个文件）。
+合计: **19,758** 行代码（覆盖前 5 种语言、共 **72** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 15,723 | 8,619 | 517 | 60 |
+| TypeScript | 15,753 | 8,621 | 519 | 60 |
 | Json | 3,480 | 0 | 0 | 6 |
 | Yaml | 444 | 0 | 65 | 4 |
 | Sh | 77 | 18 | 12 | 1 |
@@ -30,9 +30,9 @@ x install draw
 
 评分最低的几项:
 
-- **CI-Tests** (-1/10) — no pull request found
-- **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
 
 ## 源代码
 
@@ -42,7 +42,7 @@ x install draw
 
 ## 发布
 
-- **最新版本**: `v0.2.4` (2026-10-22)
+- **最新版本**: `v0.2.5` (2026-10-24)
 - **最近提交**: 2026-10-22
 
 ## 流行度
@@ -51,18 +51,18 @@ x install draw
 
 ## 累计统计
 
-- **发布数**: 5 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 2 · **提交数**: 45
+- **发布数**: 6 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 2 · **提交数**: 50
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 5 | 0 | 0 | 0 | 2 | 44 |
-| last60d | 2026-08-25 | 5 | 0 | 0 | 0 | 2 | 45 |
-| 90d | 2026-07-26 | 5 | 0 | 0 | 0 | 2 | 45 |
-| last180d | 2026-04-27 | 5 | 0 | 0 | 0 | 2 | 45 |
-| 360d | 2025-10-29 | 5 | 0 | 0 | 0 | 2 | 45 |
-| last720d | 2024-11-03 | 5 | 0 | 0 | 0 | 2 | 45 |
+| 30d | 2026-09-25 | 6 | 0 | 0 | 0 | 2 | 49 |
+| last60d | 2026-08-26 | 6 | 0 | 0 | 0 | 2 | 50 |
+| 90d | 2026-07-27 | 6 | 0 | 0 | 0 | 2 | 50 |
+| last180d | 2026-04-28 | 6 | 0 | 0 | 0 | 2 | 50 |
+| 360d | 2025-10-30 | 6 | 0 | 0 | 0 | 2 | 50 |
+| last720d | 2024-11-04 | 6 | 0 | 0 | 0 | 2 | 50 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ draw 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261024.yml` · 2026-10-24T05:39:28Z._
+_数据快照: `data/card/261025.yml` · 2026-10-25T05:39:37Z._
