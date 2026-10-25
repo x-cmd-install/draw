@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/x-cmd/draw/releases/420461733",
-  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/420461733/assets",
-  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/420461733/assets{?name,label}",
-  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.2.4",
-  "id": 420461733,
+  "url": "https://api.github.com/repos/x-cmd/draw/releases/422798685",
+  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/422798685/assets",
+  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/422798685/assets{?name,label}",
+  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.2.5",
+  "id": 422798685,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOUo_iK84ZD7yl",
-  "tag_name": "v0.2.4",
+  "node_id": "RE_kwDOUo_iK84ZM2Vd",
+  "tag_name": "v0.2.5",
   "target_commitish": "main",
-  "name": "v0.2.4",
+  "name": "v0.2.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-22T07:14:30Z",
-  "updated_at": "2026-10-22T08:16:36Z",
-  "published_at": "2026-10-22T08:16:36Z",
+  "created_at": "2026-10-22T11:04:24Z",
+  "updated_at": "2026-10-24T15:02:59Z",
+  "published_at": "2026-10-24T15:02:59Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.2.4",
-  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.2.4",
-  "body": "**Full Changelog**: https://github.com/x-cmd/draw/compare/v0.2.3...v0.2.4"
+  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.2.5",
+  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.2.5",
+  "body": "**Full Changelog**: https://github.com/x-cmd/draw/compare/v0.2.4...v0.2.5"
 }
