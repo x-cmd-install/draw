@@ -14,11 +14,11 @@ x install draw
 
 ## 代码洞察
 
-合计: **24,386** 行代码（覆盖前 5 种语言、共 **101** 个文件）。
+合计: **24,385** 行代码（覆盖前 5 种语言、共 **101** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 18,621 | 8,899 | 681 | 77 |
+| TypeScript | 18,620 | 8,899 | 681 | 77 |
 | Json | 4,765 | 0 | 0 | 6 |
 | Yaml | 919 | 0 | 77 | 16 |
 | Sh | 77 | 18 | 12 | 1 |
@@ -30,9 +30,9 @@ x install draw
 
 评分最低的几项:
 
-- **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
+- **CI-Tests** (-1/10) — no pull request found
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
 
 ## 源代码
 
@@ -51,18 +51,18 @@ x install draw
 
 ## 累计统计
 
-- **发布数**: 6 · **已合并 PR**: 1 · **开放 PR**: 0 · **已关闭 issue**: 1 · **开放 issue**: 2 · **提交数**: 121
+- **发布数**: 6 · **已合并 PR**: 1 · **开放 PR**: 0 · **已关闭 issue**: 1 · **开放 issue**: 2 · **提交数**: 122
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 6 | 1 | 0 | 1 | 2 | 116 |
-| last60d | 2026-09-05 | 6 | 1 | 0 | 1 | 2 | 117 |
-| 90d | 2026-08-06 | 6 | 1 | 0 | 1 | 2 | 117 |
-| last180d | 2026-05-08 | 6 | 1 | 0 | 1 | 2 | 117 |
-| 360d | 2025-11-09 | 6 | 1 | 0 | 1 | 2 | 117 |
-| last720d | 2024-11-14 | 6 | 1 | 0 | 1 | 2 | 121 |
+| 30d | 2026-10-06 | 6 | 1 | 0 | 1 | 2 | 117 |
+| last60d | 2026-09-06 | 6 | 1 | 0 | 1 | 2 | 118 |
+| 90d | 2026-08-07 | 6 | 1 | 0 | 1 | 2 | 118 |
+| last180d | 2026-05-09 | 6 | 1 | 0 | 1 | 2 | 118 |
+| 360d | 2025-11-10 | 6 | 1 | 0 | 1 | 2 | 118 |
+| last720d | 2024-11-15 | 6 | 1 | 0 | 1 | 2 | 122 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ draw 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:37:12Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:57:41Z._
