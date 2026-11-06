@@ -14,15 +14,15 @@ x install draw
 
 ## Code insight
 
-Total: **24,385** lines of code across **101** files in the top 5 languages.
+Total: **25,927** lines of code across **105** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 18,620 | 8,899 | 681 | 77 |
-| Json | 4,765 | 0 | 0 | 6 |
+| TypeScript | 19,121 | 8,926 | 711 | 80 |
+| Json | 4,799 | 0 | 0 | 6 |
+| JavaScript | 1,011 | 123 | 40 | 2 |
 | Yaml | 919 | 0 | 77 | 16 |
 | Sh | 77 | 18 | 12 | 1 |
-| JavaScript | 4 | 1 | 0 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2.5` (2026-10-24)
-- **Last commit**: 2026-11-04
+- **Last commit**: 2026-11-06
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 1 · **Open PRs**: 0 · **Closed issues**: 1 · **Open issues**: 2 · **Commits**: 122
+- **Releases**: 6 · **Merged PRs**: 1 · **Open PRs**: 0 · **Closed issues**: 1 · **Open issues**: 2 · **Commits**: 126
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 6 | 1 | 0 | 1 | 2 | 117 |
-| last60d | 2026-09-06 | 6 | 1 | 0 | 1 | 2 | 118 |
-| 90d | 2026-08-07 | 6 | 1 | 0 | 1 | 2 | 118 |
-| last180d | 2026-05-09 | 6 | 1 | 0 | 1 | 2 | 118 |
-| 360d | 2025-11-10 | 6 | 1 | 0 | 1 | 2 | 118 |
-| last720d | 2024-11-15 | 6 | 1 | 0 | 1 | 2 | 122 |
+| 30d | 2026-10-07 | 6 | 1 | 0 | 1 | 2 | 0 |
+| last60d | 2026-09-07 | 6 | 1 | 0 | 1 | 2 | 0 |
+| 90d | 2026-08-08 | 6 | 1 | 0 | 1 | 2 | 0 |
+| last180d | 2026-05-10 | 6 | 1 | 0 | 1 | 2 | 0 |
+| 360d | 2025-11-11 | 6 | 1 | 0 | 1 | 2 | 0 |
+| last720d | 2024-11-16 | 6 | 1 | 0 | 1 | 2 | 126 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for draw lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:57:40Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:55:51Z._
