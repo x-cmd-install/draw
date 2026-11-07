@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/x-cmd/draw/releases/422798685",
-  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/422798685/assets",
-  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/422798685/assets{?name,label}",
-  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.2.5",
-  "id": 422798685,
+  "url": "https://api.github.com/repos/x-cmd/draw/releases/437189409",
+  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/437189409/assets",
+  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/437189409/assets{?name,label}",
+  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.3.0",
+  "id": 437189409,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOUo_iK84ZM2Vd",
-  "tag_name": "v0.2.5",
+  "node_id": "RE_kwDOUo_iK84aDvsh",
+  "tag_name": "v0.3.0",
   "target_commitish": "main",
-  "name": "v0.2.5",
+  "name": "v0.3.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-22T11:04:24Z",
-  "updated_at": "2026-10-24T15:02:59Z",
-  "published_at": "2026-10-24T15:02:59Z",
+  "created_at": "2026-11-06T23:48:32Z",
+  "updated_at": "2026-11-06T23:50:43Z",
+  "published_at": "2026-11-06T23:50:43Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.2.5",
-  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.2.5",
-  "body": "**Full Changelog**: https://github.com/x-cmd/draw/compare/v0.2.4...v0.2.5"
+  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.3.0",
+  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.3.0",
+  "body": "## What's Changed\n* feat: /draw/archmap grid topology + /draw/mindmap three forms (hub #17/#20) by @edwinjhlee in https://github.com/x-cmd/draw/pull/3\n\n## New Contributors\n* @edwinjhlee made their first contribution in https://github.com/x-cmd/draw/pull/3\n\n**Full Changelog**: https://github.com/x-cmd/draw/compare/v0.2.5...v0.3.0",
+  "mentions_count": 1
 }
