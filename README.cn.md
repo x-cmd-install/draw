@@ -14,13 +14,13 @@ x install draw
 
 ## 代码洞察
 
-合计: **36,376** 行代码（覆盖前 5 种语言、共 **222** 个文件）。
+合计: **36,770** 行代码（覆盖前 5 种语言、共 **228** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 26,280 | 10,092 | 1,207 | 126 |
-| Json | 4,867 | 0 | 0 | 6 |
-| JavaScript | 2,765 | 485 | 173 | 30 |
+| TypeScript | 26,587 | 10,164 | 1,231 | 128 |
+| Json | 4,869 | 0 | 0 | 6 |
+| JavaScript | 2,850 | 519 | 183 | 34 |
 | Yaml | 2,387 | 36 | 120 | 59 |
 | Sh | 77 | 18 | 12 | 1 |
 
@@ -30,9 +30,9 @@ x install draw
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/27 approved changesets -- score normalized to 0
 - **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/27 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install draw
 
 ## 流行度
 
-- **Star**: 3 · **Fork**: 2 · **开放 issue**: 12 · **贡献者**: 5
+- **Star**: 3 · **Fork**: 2 · **开放 issue**: 12 · **贡献者**: 6
 
 ## 累计统计
 
-- **发布数**: 7 · **已合并 PR**: 6 · **开放 PR**: 1 · **已关闭 issue**: 2 · **开放 issue**: 10 · **提交数**: 245
+- **发布数**: 7 · **已合并 PR**: 6 · **开放 PR**: 2 · **已关闭 issue**: 2 · **开放 issue**: 10 · **提交数**: 254
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 7 | 6 | 1 | 2 | 10 | 237 |
-| last60d | 2026-09-14 | 7 | 6 | 1 | 2 | 10 | 238 |
-| 90d | 2026-08-15 | 7 | 6 | 1 | 2 | 10 | 238 |
-| last180d | 2026-05-17 | 7 | 6 | 1 | 2 | 10 | 238 |
-| 360d | 2025-11-18 | 7 | 6 | 1 | 2 | 10 | 238 |
-| last720d | 2024-11-23 | 7 | 6 | 1 | 2 | 10 | 245 |
+| 30d | 2026-10-15 | 7 | 6 | 2 | 2 | 10 | 246 |
+| last60d | 2026-09-15 | 7 | 6 | 2 | 2 | 10 | 247 |
+| 90d | 2026-08-16 | 7 | 6 | 2 | 2 | 10 | 247 |
+| last180d | 2026-05-18 | 7 | 6 | 2 | 2 | 10 | 247 |
+| 360d | 2025-11-19 | 7 | 6 | 2 | 2 | 10 | 247 |
+| last720d | 2024-11-24 | 7 | 6 | 2 | 2 | 10 | 254 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ draw 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261113.yml` · 2026-11-13T08:19:33Z._
+_数据快照: `data/card/261114.yml` · 2026-11-14T08:00:03Z._
