@@ -14,12 +14,12 @@ x install draw
 
 ## Code insight
 
-Total: **49,558** lines of code across **308** files in the top 5 languages.
+Total: **56,679** lines of code across **339** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 36,504 | 12,119 | 2,163 | 187 |
-| Json | 6,821 | 0 | 0 | 10 |
+| TypeScript | 41,969 | 13,148 | 2,562 | 218 |
+| Json | 8,450 | 0 | 0 | 10 |
 | JavaScript | 3,236 | 668 | 221 | 43 |
 | Yaml | 2,920 | 36 | 128 | 67 |
 | Sh | 77 | 18 | 12 | 1 |
@@ -31,8 +31,8 @@ Overall score: **5.2 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Maintained** (0/10) — project was created within the last 90 days. Please review its contents carefully
 - **CI-Tests** (-1/10) — no pull request found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -42,8 +42,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v0.4.7` (2026-11-19)
-- **Last commit**: 2026-11-27
+- **Latest**: `v0.5.0` (2026-11-28)
+- **Last commit**: 2026-11-28
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 15 · **Merged PRs**: 11 · **Open PRs**: 0 · **Closed issues**: 5 · **Open issues**: 28 · **Commits**: 357
+- **Releases**: 16 · **Merged PRs**: 11 · **Open PRs**: 0 · **Closed issues**: 5 · **Open issues**: 28 · **Commits**: 377
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 9 | 10 | 0 | 5 | 26 | 279 |
-| last60d | 2026-09-28 | 15 | 11 | 0 | 5 | 28 | 346 |
-| 90d | 2026-08-29 | 15 | 11 | 0 | 5 | 28 | 347 |
-| last180d | 2026-05-31 | 15 | 11 | 0 | 5 | 28 | 347 |
-| 360d | 2025-12-02 | 15 | 11 | 0 | 5 | 28 | 347 |
-| last720d | 2024-12-07 | 15 | 11 | 0 | 5 | 28 | 357 |
+| 30d | 2026-10-29 | 10 | 10 | 0 | 5 | 26 | 299 |
+| last60d | 2026-09-29 | 16 | 11 | 0 | 5 | 28 | 366 |
+| 90d | 2026-08-30 | 16 | 11 | 0 | 5 | 28 | 367 |
+| last180d | 2026-06-01 | 16 | 11 | 0 | 5 | 28 | 367 |
+| 360d | 2025-12-03 | 16 | 11 | 0 | 5 | 28 | 367 |
+| last720d | 2024-12-08 | 16 | 11 | 0 | 5 | 28 | 377 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for draw lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:20:05Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:31:13Z._
