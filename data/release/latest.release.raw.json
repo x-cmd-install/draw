@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/x-cmd/draw/releases/452072011",
-  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/452072011/assets",
-  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/452072011/assets{?name,label}",
-  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.4.7",
-  "id": 452072011,
+  "url": "https://api.github.com/repos/x-cmd/draw/releases/461422736",
+  "assets_url": "https://api.github.com/repos/x-cmd/draw/releases/461422736/assets",
+  "upload_url": "https://uploads.github.com/repos/x-cmd/draw/releases/461422736/assets{?name,label}",
+  "html_url": "https://github.com/x-cmd/draw/releases/tag/v0.5.0",
+  "id": 461422736,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOUo_iK84a8hJL",
-  "tag_name": "v0.4.7",
+  "node_id": "RE_kwDOUo_iK84bgMCQ",
+  "tag_name": "v0.5.0",
   "target_commitish": "main",
-  "name": "v0.4.7",
+  "name": "v0.5.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-19T23:43:26Z",
-  "updated_at": "2026-11-19T23:44:10Z",
-  "published_at": "2026-11-19T23:44:10Z",
+  "created_at": "2026-11-28T08:50:27Z",
+  "updated_at": "2026-11-28T08:51:15Z",
+  "published_at": "2026-11-28T08:51:15Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.4.7",
-  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.4.7",
-  "body": "# draw v0.4.7\n\n## The codebase today\n\nEvery file in `src/`, `test/` and `scripts/`, by language:\n\n## What changed\n\n- feat(theme): 底色统一成蓝/紫一族的色相 —— 白底与黑屏都适用(#131) (6a74e15)\n"
+  "tarball_url": "https://api.github.com/repos/x-cmd/draw/tarball/v0.5.0",
+  "zipball_url": "https://api.github.com/repos/x-cmd/draw/zipball/v0.5.0",
+  "body": "# draw v0.5.0\n\n## The codebase today\n\nEvery file in `src/`, `test/` and `scripts/`, by language:\n\n## What changed\n\n- chore(release): 0.5.0 —— 四个入口(core / source / client / node)+ 渲染器全搬进来 (cb7c03d)\n- feat(client): 球面那几样也从浏览器入口导出 —— 宿主不用为它们拖整族 source 进来 (74a0d3e)\n- refactor: 跑命令那套挪到 node 入口 —— 浏览器包不能带 child_process (249c793)\n- fix(source): 源码入口补上 runCommand(终端那条路要用) (321258a)\n- refactor: 渲染器**都搬进公开库**,hub 只留应用层 (d4fa25d)\n- feat(client): 图族也进浏览器入口(架构图/思维导图/序列图/甘特…) (4ff91a3)\n- docs: 「在 HTML 报告里画图」—— 浏览器入口怎么用 (3bfca1f)\n- refactor(render): 调度挪到 params-dispatch.ts(不含 DOM)—— 服务端与浏览器端同一份实现 (f0fc620)\n- feat(client): 浏览器入口 —— 引一行 <script> 就出图(**不请求后台**) (16c11d6)\n- refactor(styles): 渲染器改从**基准表**取字号 —— 别再各写各的 (c96bed2)\n- fix(render): 12px 的字全部提到 13px —— 读者年长,12px 读不清 (e5f69c9)\n- docs(styles): 把「版式基准」单独钉一份 —— 全站一样的那部分,别散在几十个渲染器里 (c663843)\n- fix(calendar): 月历的事件名**折行**而不是截断 —— 截一半等于给错信息 (7b24a96)\n- fix(render): 裁剪前把文字宽度**量准**(用字宽表算)—— 估窄了会把字切掉,宽度这一头才敢收 (edf8201)\n- fix(mindmap): 节点名底下垫一块底色 —— 分支线从字底下穿过去,字压线读不清 (573c12d)\n- fix(calendar): 挤在格子里的文字截断时,把全名放进 <title> —— 「Natio…」读者只能猜 (aeaca03)\n- feat(render): 画布贴紧内容 —— 挪成**给页面用**的工具,不动 /draw 的输出尺寸 (00eb2c8)\n- fix(gauge): 单值时把**读数**写进环心 —— 光一根弧,读者只能靠弧长猜数值 (b56a04e)\n- feat(render): 画布**贴紧内容** —— 内容只占上面一块时,下面那条空白是白给的 (a3bf095)\n- fix(render): 文字别截断 + 卡片别盖住标题(canvas='card' 的皮肤,图内标题被卡片吃掉) (c722b8d)\n- fix(globe): 贴着地平线的一块地会把**整个球**糊成一个色块(issue #172) (7bc727b)\n- fix(globe): 弧的画法重做 —— 大圆采样 + 挑离球面 + 背面不画 (73cdebe)\n- feat(map): 地图的画布**按底图形状给** ⇒ 地图填满宽度,不留空带 (eb3f882)\n- docs(map): 台湾的省级底图加一句指路 —— 口径问题看 x-cmd-hub/draw#165 ✓ (fbfcce3)\n- fix(map): 台湾归到**中国省市**数据里(不在世界数据里 ✓) (4e58121)\n- fix(map): 台湾的 ISO 码与中文名 —— alpha-2 取后半截,名字统一叫「台湾」 (9629a15)\n- feat(globe): 底图带中文名 + 标签按语言切 + 画布铺满可用空间 (1d980a2)\n- feat(globe): 球上加国名 + 上下拖的方向改对 (1ccd18f)\n- fix(globe): 球留出边 —— 之前大气圈伸到画布外被切掉(看着像「地球超出画面」✓) (6163c65)\n- feat(globe): 区域编码 —— ISO 3166-2 主键 + 老名字照样认(任务 #23) (e8364e2)\n- fix(globe): 整个在背面/贴着地平线的国家把半个球糊成一片 (c7b48b7)\n- feat(map): 中国**县级**底图(省 → 市 → 县,2728 个县) (5489266)\n- feat(globe): 底图换 50m + 两个投影层的坑(背面糊满球 / 投影后抽稀) (c7e920e)\n- fix(map): 抽稀把闭合环塌成直线 —— 所有底图的轮廓都是八边形 (3e93ca0)\n- feat(globe): 单独的子路径入口 —— 浏览器端不必把整个库打进包里 (2f9c635)\n- fix(globe): Polygon 的坐标少包一层 —— 多边形的环被当成了点(147/177 个国家画不出来) (84969ed)\n- feat(globe): 投影层 + Natural Earth 底图 + ISO 键(issue #155 的地基) (8469c0d)\n- fix(anno): 尺寸分轴算 —— x 按绘图区宽、y 按绘图区高 (d57c974)\n- feat(anno): 按图种定锚 —— 有值映射的图,y 用**数据值** (3cead67)\n- fix(anno): 标注锚在**绘图区**(数据区),不是整个画布 (1891cf6)\n- fix(anno): 标注的尺寸用一把统一的尺 —— 改画布不许变形 (07b7c72)\n- docs(skill): mermaid 图种清单改成现状(新图族已接上) (ddd6f82)\n- docs(skill): 补上新图族的参数与 ECharts 覆盖层的用法(agent 可抄的模板) (27624be)\n- feat(mermaid): 剩下的图型补齐 —— 时间轴/旅程/分支图/看板/块图/包字段/需求图/C4 (508a361)\n- docs(examples): 天梯示例数据换成 x-cmd/hw 规格指数 —— 1080 Ti 真 = 1000 (40b12a4)\n- feat(render): 参考线 ?ref= —— 图自己的规格字段,导出 PNG/SVG 也带着它 (9a7bea2)\n- feat(mermaid): 一个入口十二种图种 —— 按首关键字分派,各自翻成对应引擎的参数 (d26163b)\n- fix(render): 副标题/单位画出来,单系列柱线认逐点色 (d4deb53)\n- Merge branch 'main' of github.com:x-cmd/draw (1aaf9f9)\n- docs: riemann hypothesis showcase (f5e3db1)\n- fix(styles): 槽位校验提为导出函数 —— hub 的两条直调路也过同一份 (b5dadb8)\n- feat(styles): 语义槽位 —— colors= 收槽位名,换皮不改义(#133 二期) (ecf07ad)\n- Docs/frontier harness showcase (#42) (e037ab6)\n- refactor(skill): 调整 draw skill 布局以利平台收录,参考资料拆分至 references/ (#40) (0158ca6)\n- feat(styles): 三张跨图种皮肤 macaron / wabi-sabi / primer(#133) (ba2c176)\n"
 }
